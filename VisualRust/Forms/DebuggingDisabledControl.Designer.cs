@@ -43,7 +43,7 @@
             this.label1.Location = new System.Drawing.Point(25, 4);
             this.label1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 150);
+            this.label1.Size = new System.Drawing.Size(426, 150);
             this.label1.TabIndex = 0;
             this.label1.Text = "Debugging support requires Visual Studio 2015 with \"Visual C++ Mobile Development" +
     "\" feature installed.";
@@ -70,8 +70,8 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 150F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(150, 150);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 154F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(454, 92);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // DebuggingDisabledControl
@@ -80,6 +80,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "DebuggingDisabledControl";
+            this.Size = new System.Drawing.Size(454, 92);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
